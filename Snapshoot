@@ -1,0 +1,18 @@
+#Cambiar la branch en la que estamos trabajando:
+git  branch -m main
+
+#Obtener información acerca del estado 
+git status
+
+#Añadir elementos para entrar en la snapshoot 
+git add NOMBRE_ARCHIVO
+
+#Realizar un commit (snapshoot)
+#De esta forma se nos abrirá un vim donde manualmente tendremos que ingresar el comentario
+git commit
+
+#Realizar commit forma corta: (No olvidar las comillas dobles)
+git commit -m "COMENTARIO"
+
+
+# *NOTA IMPORTANTE* Cada que quieras realizar un commit debes de añadir elementos a la snapshoot usando git add  
