@@ -26,3 +26,10 @@ Git log (Versión extendida)
 git log --graph (Version extendida tipo linea vertical de los cambios)
 git log --graph --pretty=oneline ( Versión resumida del commit, incluye hash completo y el comentario)
 git log --graph --decorate --all --oneline ( Versión resumida del commit, incluye hash RESUMIDO y el comentario)
+
+#Crear un método abreviado para  los comandos
+git config --Global alias.NOMBREDELALIAS "log --graph --decorate --all --oneline"
+#De estra manera cada que llamemo al alias, se estará ejecutando dicho comando pe
+Git NOMBREDELALIAS
+#Saber si se han realizado cambios, y te dice que cambios fueron
+git diff
