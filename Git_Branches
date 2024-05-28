@@ -1,0 +1,6 @@
+Se usan para agregar features sin modificar la rama principal
+Para crear la branch se usa :
+git branch NOMBRE
+Para cambiar de rama 
+git switch NOMBRE
+
