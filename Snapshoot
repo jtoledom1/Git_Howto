@@ -16,3 +16,13 @@ git commit -m "COMENTARIO"
 
 
 # *NOTA IMPORTANTE* Cada que quieras realizar un commit debes de añadir elementos a la snapshoot usando git add  
+
+
+#Volver a la anterior versión guardada:
+git checkout HASH_COMMIT -- NOMBRE_ARCHIVO
+
+#Para ver la lista de nuestros cambios, podremos usar los siguientes comandos
+Git log (Versión extendida)
+git log --graph (Version extendida tipo linea vertical de los cambios)
+git log --graph --pretty=oneline ( Versión resumida del commit, incluye hash completo y el comentario)
+git log --graph --decorate --all --oneline ( Versión resumida del commit, incluye hash RESUMIDO y el comentario)
