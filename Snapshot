@@ -27,6 +27,13 @@ git log --graph (Version extendida tipo linea vertical de los cambios)
 git log --graph --pretty=oneline ( Versión resumida del commit, incluye hash completo y el comentario)
 git log --graph --decorate --all --oneline ( Versión resumida del commit, incluye hash RESUMIDO y el comentario)
 
+Git reset (Borra lo que hay despúes de la ÚLTIMA snapshot)
+Git reset --hard HASH (Borra lo que hay después de la snapnshot que especifiquemos)
+Git reflog (Te da un historial de los cambios)
+
+#Para desahecer el --hard entrar a reflog para ver el hash y con
+#un checkout te puedes regresar a una snapshot anterior
+
 #Crear un método abreviado para  los comandos
 git config --Global alias.NOMBREDELALIAS "log --graph --decorate --all --oneline"
 #De estra manera cada que llamemo al alias, se estará ejecutando dicho comando pe
