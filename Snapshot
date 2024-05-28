@@ -6,6 +6,9 @@ git status
 
 #Añadir elementos para entrar en la snapshoot 
 git add NOMBRE_ARCHIVO
+#También puedes usar un punto al final para indicar que se añada todo lo que se tenga que añadir en especial
+#si son varios ficheros
+git add .
 
 #Realizar un commit (snapshoot)
 #De esta forma se nos abrirá un vim donde manualmente tendremos que ingresar el comentario
