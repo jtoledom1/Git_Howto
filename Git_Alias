@@ -1,2 +1,3 @@
 La versión corta de uno o varios comandos:
 git config --global alias.<nombre_del_alias> '!comando1 && comando2'
+git config --global alias.superpush 'pull origin main&&push -u origin main'
