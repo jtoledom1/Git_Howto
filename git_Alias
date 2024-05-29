@@ -1,0 +1,2 @@
+La versión corta de uno o varios comandos:
+git config --global alias.<nombre_del_alias> '!comando1 && comando2'
