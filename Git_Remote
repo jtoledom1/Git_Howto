@@ -1,0 +1,15 @@
+>>>>SSH
+Esto es para iniciar con un repo existente y combinar los avances en local con github
+
+git remote add origin git@github.com:jtoledom1/Git_Howto.git
+git add .
+git commit -m "Mensaje de commit"
+  git pull origin main --allow-unrelated-histories
+  git config pull.rebase false (Se recomienda usar esta )
+git push -u origin master
+
+Para en cambio empezar a trabajar desde cero y con un repo ya existente, sólo lo tienes que clonar dentro de
+la carpeta que quieres que se almacene tu repo
+
+git clone git@github.com:jtoledom1/Git_Howto.git
+
