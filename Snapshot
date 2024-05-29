@@ -1,0 +1,45 @@
+#Cambiar la branch en la que estamos trabajando:
+git  branch -m main
+
+#Obtener información acerca del estado 
+git status
+
+#Añadir elementos para entrar en la snapshoot 
+git add NOMBRE_ARCHIVO
+#También puedes usar un punto al final para indicar que se añada todo lo que se tenga que añadir en especial
+#si son varios ficheros
+git add .
+
+#Realizar un commit (snapshoot)
+#De esta forma se nos abrirá un vim donde manualmente tendremos que ingresar el comentario
+git commit
+
+#Realizar commit forma corta: (No olvidar las comillas dobles)
+git commit -m "COMENTARIO"
+
+
+# *NOTA IMPORTANTE* Cada que quieras realizar un commit debes de añadir elementos a la snapshoot usando git add  
+
+
+#Volver a la anterior versión guardada:
+git checkout HASH_COMMIT -- NOMBRE_ARCHIVO
+
+#Para ver la lista de nuestros cambios, podremos usar los siguientes comandos
+Git log (Versión extendida)
+git log --graph (Version extendida tipo linea vertical de los cambios)
+git log --graph --pretty=oneline ( Versión resumida del commit, incluye hash completo y el comentario)
+git log --graph --decorate --all --oneline ( Versión resumida del commit, incluye hash RESUMIDO y el comentario)
+
+Git reset (Borra lo que hay despúes de la ÚLTIMA snapshot)
+Git reset --hard HASH (Borra lo que hay después de la snapnshot que especifiquemos)
+Git reflog (Te da un historial de los cambios)
+
+#Para desahecer el --hard entrar a reflog para ver el hash y con
+#un checkout te puedes regresar a una snapshot anterior
+
+#Crear un método abreviado para  los comandos
+git config --Global alias.NOMBREDELALIAS "log --graph --decorate --all --oneline"
+#De estra manera cada que llamemo al alias, se estará ejecutando dicho comando pe
+Git NOMBREDELALIAS
+#Saber si se han realizado cambios, y te dice que cambios fueron
+git diff
