@@ -287,3 +287,49 @@ git pull origin main
 ```bash
 git push -u origin main
 ```
+
+## FORK y PULL REQUEST
+
+### Hacer un fork del repositorio
+
+1. Dirígete al repositorio en GitHub que deseas hacer fork.
+2. Haz clic en el botón "Fork" en la esquina superior derecha de la página.
+3. Selecciona tu cuenta como destino para el fork.
+
+### Clonar el repositorio forked
+
+Una vez que hayas hecho el fork, clona el repositorio a tu máquina local:
+
+```bash
+git clone URL_DEL_REPOSITORIO_FORKED
+```
+
+### Realizar cambios y subirlos al repositorio clonado
+
+1. Haz los cambios necesarios en los archivos clonados.
+2. Agrega los archivos modificados al área de preparación:
+
+```bash
+git add .
+```
+
+3. Realiza un commit con un mensaje descriptivo:
+
+```bash
+git commit -m "Descripción de los cambios"
+```
+
+4. Empuja los cambios al repositorio forked en GitHub:
+
+```bash
+git push origin NOMBRE_DE_LA_RAM
+```
+
+### Crear una pull request
+
+1. Ve al repositorio forked en GitHub.
+2. Haz clic en el botón "Pull Request" (Solicitud de extracción) en la parte superior.
+3. Completa la información necesaria para la pull request, como una descripción detallada de los cambios realizados.
+4. Haz clic en "Crear pull request" para enviar la solicitud al repositorio original.
+
+¡Listo! Has hecho un fork de un repositorio, clonado el fork, realizado cambios y enviado una pull request al repositorio original.
