@@ -346,3 +346,9 @@ git push origin NOMBRE_DE_LA_RAM
 4. Haz clic en "Crear pull request" para enviar la solicitud al repositorio original.
 
 ¡Listo! Has hecho un fork de un repositorio, clonado el fork, realizado cambios y enviado una pull request al repositorio original.
+
+<a href="https://github.com/jtoledom1/Git_Howto/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jtoledom1/Git_Howto" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
