@@ -1,5 +1,15 @@
 # Git_Howto
 Guia primeros pasos usando git y github
+## Índice
+
+1. [Configuración inicial](#configuración-inicial)
+2. [Merge](#merge)
+3. [Stash](#stash)
+4. [Git Alias](#git-alias)
+5. [Git Tag](#git-tag)
+6. [Git remote método SSH](#git-remote-método-ssh)
+7. [Fork y Pull Request](#fork-y-pull-request)
+   
 ## Configuración inicial
 
 Configura tu nombre de usuario:
@@ -213,7 +223,7 @@ Para cambiar a una rama específica, se utiliza el siguiente comando:
 ```bash
 git switch NOMBRE
 ```
-## Git remote metodo: SSH
+## Git remote método SSH
 
 ### Iniciar con un repositorio existente y combinar los avances en local con GitHub:
 
