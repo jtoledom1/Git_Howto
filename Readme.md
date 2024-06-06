@@ -20,8 +20,75 @@ Las claves RSA (ssh-rsa) con una fecha de validez anterior al 2 de noviembre de 
 
 <details>
   <summary>Linux</summary>
+Aquí está la documentación para generar y agregar una clave SSH, adaptada para el uso en la Terminal:
+
+---
+
+**Generar y Agregar una Clave SSH a tu Cuenta de GitHub**
+
+**Paso 1: Generar una Clave SSH**
+
+1. Abre Terminal.
+
+2. Pega el siguiente texto, reemplazando "tu_correo_electronico@example.com" con tu dirección de correo electrónico de GitHub:
+
+```bash
+ssh-keygen -t ed25519 -C "tu_correo_electronico@example.com"
+```
+
+Nota: Si estás utilizando un sistema heredado que no admite el algoritmo Ed25519, usa el siguiente comando:
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "tu_correo_electronico@example.com"
+```
+
+3. Cuando se te solicite, presiona Enter para aceptar la ubicación de archivo predeterminada.
+
+4. Luego, ingresa una frase de contraseña segura cuando se te solicite.
+
+**Paso 2: Agregar tu Clave SSH al ssh-agent**
+
+1. Antes de agregar una nueva clave SSH al ssh-agent, verifica si ya tienes claves SSH existentes y has generado una nueva clave SSH.
+
+2. Inicia el agente SSH en segundo plano ejecutando el siguiente comando en la Terminal:
+
+```bash
+eval "$(ssh-agent -s)"
+```
+
+Dependiendo de tu entorno, es posible que necesites usar un comando diferente. Por ejemplo, podrías necesitar usar sudo -s -H antes de iniciar ssh-agent si estás usando macOS Sierra 10.12.2 o una versión posterior.
+
+3. Agrega tu clave privada SSH al ssh-agent ejecutando el siguiente comando en la Terminal:
+
+```bash
+ssh-add ~/.ssh/id_ed25519
+```
+
+Nota: Si has creado tu clave con otro nombre, reemplaza "id_ed25519" en el comando con el nombre de tu archivo de clave privada.
+
+**Paso 3: Agregar la Clave Pública SSH a tu Cuenta de GitHub**
+
+1. Copia la clave pública SSH ejecutando el siguiente comando en la Terminal:
+
+```bash
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+2. Ve a tu cuenta de GitHub y haz clic en tu foto de perfil.
+
+3. Selecciona "Settings" (Configuración) en el menú desplegable.
+
+4. En el panel lateral izquierdo, haz clic en "SSH and GPG keys" (Claves SSH y GPG).
+
+5. Haz clic en "New SSH key" (Nueva clave SSH).
+
+6. En el campo "Title" (Título), pega un nombre descriptivo para tu clave SSH.
+
+7. En el campo "Key" (Clave), pega la clave pública SSH que copiaste anteriormente.
+
+8. Haz clic en "Add SSH key" (Agregar clave SSH).
   
-  Contenido para Linux.
+
 </details>
 
 <details>
