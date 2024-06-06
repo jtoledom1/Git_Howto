@@ -25,9 +25,17 @@ git config --global user.email USER@example.com
 ```
 ### Cambiar la branch en la que estamos trabajando:
 
+Sólo si es por primera vez, ya que este cómando la creará y te moverá a ella
+
 ```bash
 git branch -m main
 ```
+Sí tenemos una rama ya creada el comando para movernos a esa rama será el siguiente:
+
+```bash
+git checkout main
+```
+
 
 ### Obtener información acerca del estado
 
