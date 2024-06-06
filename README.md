@@ -210,7 +210,6 @@ Se pueden eliminar conforme las ramas pierdan su utilidad, es decir, cuando los 
 ```bash
 git branch -d RAMA
 ```
-Aquí está la documentación Markdown actualizada:
 
 ## Agregar características sin modificar la rama principal
 
