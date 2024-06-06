@@ -1,16 +1,3 @@
-<details>
-  <summary>Linux</summary>
-  
-  Contenido para Linux.
-</details>
-
-<details>
-  <summary>Windows</summary>
-  
-Claro, puedo ayudarte con eso. Aquí tienes la documentación técnica reescrita:
-
----
-
 **Sobre las Frases de Contraseña para Claves SSH**
 
 Puedes acceder y escribir datos en los repositorios de GitHub.com utilizando el protocolo Secure Shell (SSH). Al conectarte a través de SSH, la autenticación se realiza mediante un archivo de clave privada en tu equipo local. Para obtener más información, consulta "Acerca de SSH".
@@ -31,7 +18,16 @@ A partir de esta fecha, las claves DSA (ssh-dss) ya no son compatibles. No podr�
 
 Las claves RSA (ssh-rsa) con una fecha de validez anterior al 2 de noviembre de 2021 pueden seguir utilizando cualquier algoritmo de firma. Sin embargo, las claves RSA generadas después de esta fecha deben utilizar un algoritmo de firma del tipo SHA-2. Es posible que algunos clientes más antiguos necesiten actualizarse para admitir firmas del tipo SHA-2.
 
-Para generar una nueva clave SSH:
+<details>
+  <summary>Linux</summary>
+  
+  Contenido para Linux.
+</details>
+
+<details>
+  <summary>Windows</summary>
+  
+**Para generar una nueva clave SSH:**
 
 1. Abre Git Bash.
 
