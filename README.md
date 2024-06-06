@@ -507,6 +507,7 @@ Nota: Si has utilizado un nombre diferente para tu clave SSH, reemplaza "id_ed25
 
 </details>
 
+## Trabajo remoto aplicando ssh
 <details>
    <summary>Y? </summary>
    ### Iniciar con un repositorio existente y combinar los avances en local con GitHub:
