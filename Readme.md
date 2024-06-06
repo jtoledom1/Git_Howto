@@ -1,30 +1,17 @@
+<details>
+  <summary>Linux</summary>
+  
+  Contenido para Linux.
+</details>
 
-    <ul>
-        <li><a href="#" onclick="showTab('linux')">Linux</a></li>
-        <li><a href="#" onclick="showTab('windows')">Windows</a></li>
-        <li><a href="#" onclick="showTab('macos')">MacOS</a></li>
-    </ul>
+<details>
+  <summary>Windows</summary>
+  
+  Contenido para Windows.
+</details>
 
-    <div id="linux" class="tab-content">
-        Contenido para Linux.
-    </div>
-
-    <div id="windows" class="tab-content">
-        Contenido para Windows.
-    </div>
-
-    <div id="macos" class="tab-content">
-        Contenido para MacOS.
-    </div>
-
-    <script>
-        function showTab(tabName) {
-            var tabs = document.querySelectorAll('.tab-content');
-            tabs.forEach(function(tab) {
-                tab.classList.remove('active');
-            });
-
-            var tabToShow = document.getElementById(tabName);
-            tabToShow.classList.add('active');
-        }
-    </script>
+<details>
+  <summary>MacOS</summary>
+  
+  Contenido para MacOS.
+</details>
