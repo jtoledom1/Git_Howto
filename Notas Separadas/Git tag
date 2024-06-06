@@ -1,5 +1,0 @@
-#usar snake_case
-git tag "nombre_1"
-
-#moverse a un tag
-git checkout tags/clase_1
