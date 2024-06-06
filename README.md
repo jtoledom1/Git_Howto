@@ -1,4 +1,4 @@
-# Git_Howto
+# Git_Howto--->Español
 Guia primeros pasos usando git y github
 ## Índice
 
@@ -69,7 +69,7 @@ Realizar commit de forma corta (No olvidar las comillas dobles):
 git commit -m "COMENTARIO"
 ```
 
-*NOTA IMPORTANTE*: Cada vez que quieras realizar un commit, debes añadir elementos a la snapshoot usando `git add`.
+*NOTA IMPORTANTE*: Cada vez que quieras realizar un commit, debes añadir elementos a la snapshoot usando `git add .`
 
 ### Volver a la anterior versión guardada
 
