@@ -12,5 +12,5 @@ Gracias!
   
 <details>
 <summary>Descarga git</summary>
-<a href="https://www.git-scm.com/download/win"></a>
+<a href="https://www.git-scm.com/download/win"><p>Aquí</p></a>
 </details>
