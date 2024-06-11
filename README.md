@@ -23,7 +23,10 @@ Te brindaremos los recursos necesarios para que puedas empezar sin contratiempos
 
 
 ## Generalidades
-En virtud de que esta guía sea de rápido acceso en tu día a día excluímos partes que en principio deberías usar sólo una vez. Por ejemplo la configuración inicial de git 
+En virtud de que esta guía sea de rápido acceso en tu día a día excluímos partes que en principio deberías usar sólo una vez. Será necesario que para empezar este curso realices los módulos siguientes, ya que sin ellos no podrás avanzar:
+
+- [configuración inicial de git](Notas%20Separadas/Initial_config)
+- [Configuración ssh](Notas%20Separadas/Git_ssh_init.md)
 ## Primeros pasos
 ## Enlaces
 
