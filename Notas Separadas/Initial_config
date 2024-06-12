@@ -1,3 +1,10 @@
-#Setting up first time 
+# Configuración inicial por primera vez.
+
+Esta parte de la guía está orientada para configurar tus redenciales apartir de las cuales estaremos trabajando en todo el curso, recuerda reemplazar los campos: 
+USER con tu nombre de usuario por ejemplo JTOLEDOM1
+
+USER@example.com con tu correo elctrónico 
+
 git config --global user.name "USER"
+
 git config --global user.email USER@example.com
