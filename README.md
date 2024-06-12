@@ -20,6 +20,11 @@ Te brindaremos los recursos necesarios para que puedas empezar sin contratiempos
 ## Tabla de contenido
 - [Generalidades](#generalidades)
 - [Primeros pasos](#primeros-pasos)
+    - [git](#git)
+    - [github](#github)
+    - [.gitignore](#gitignore)
+- [Integración de Git y Github](#integración-de-git-y-github)
+- [Git push](#git-push)
 - [Enlaces](#enlaces)
 
 
