@@ -182,3 +182,9 @@ git push -u origin main
 <a href="https://www.git-scm.com/download/linux"><p>Linux</p></a>
 <a href="https://www.git-scm.com/download/mac"><p>MacOs</p></a>
 </details>
+
+<a href="https://github.com/jtoledom1/Git_Howto/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jtoledom1/Git_Howto" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
