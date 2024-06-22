@@ -1,5 +1,5 @@
 # Ayudas adicionales
-
+ooooo
 En esta parte encontrarás elementos que NO son esenciales pero te pueden ayudar mucho
 
 ## Git README
