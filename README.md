@@ -1,5 +1,6 @@
 # Git How to?
-$ Español $
+
+<---!Badges por idiomas --->
   
 Bienvenido a este curso para aprender a usar Github, esperamos que te sea de utilidad para empezar a trabajar de manera colaborativa. 
 
