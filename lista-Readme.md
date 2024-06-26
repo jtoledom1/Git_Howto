@@ -10,3 +10,5 @@ top 🔥
   2.[Ejemplo 2](https://github.com/jtoledom1/jtoledom1.git)
      
   3.[Trofeos](https://github.com/ryo-ma/github-profile-trophy.git)
+
+  4.[Metricas 1](https://github.com/athul/waka-readme.git)
