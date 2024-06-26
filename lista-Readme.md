@@ -4,6 +4,6 @@ A continuación se presenta una lista para poder armar tu repositorio personal a
 ## Repositorios:
 
 top 🔥
-     1.(Ejemplo 1)[https://github.com/Carol42/Carol42.git]
+     1.[Ejemplo 1](https://github.com/Carol42/Carol42.git)
      2.(Ejemplo 2)[https://github.com/jtoledom1]
      3.(Trofeos[]
