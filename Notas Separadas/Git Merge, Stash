@@ -7,7 +7,7 @@ Para saber si tenemos conflictos antes de hacer el merge, usaremos un comando vi
 git dif RAMA
 anteriormente se había usado para comparar ficheros pero también sirve para comparar branches
 
-
+oooo
 <<STASH>>
 Hacer un commit de manera temporal que queda guardado en el host local y no se ve reflejado en el arbol general 
 git stash
