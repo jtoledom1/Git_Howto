@@ -1,8 +1,13 @@
 # Git How to?
 
 <---!Badges por idiomas --->
-  
+
+![Static Badge](https://img.shields.io/badge/Prueba_1-Eject-2?color=7EF12E)
+
+<---!Badges por idiomas --->
+
 Bienvenido a este curso para aprender a usar Github, esperamos que te sea de utilidad para empezar a trabajar de manera colaborativa. 
+
 
 Te brindaremos los recursos necesarios para que puedas empezar sin contratiempos. Diseñamos este curso para que puedas trabajar sin importar tu sistema operativo. Te recomendamos adecuar tu entorno de trabajo acorde a tus necesidades, ya que estaremos trabajando con la terminal del sistema, es recomendable que esta sea un entorno amigable para ti. Por el momento puedes acceder a tutoriales que ha creado la comunidad, y que a su vez han sido probados por nosotros con resultados prometedores. 
   
