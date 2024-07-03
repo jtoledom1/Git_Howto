@@ -2,9 +2,7 @@
 
 <---!Badges por idiomas --->
 
-<a href="https://github.com/Ileriayo/markdown-badges/blob/a921e3074adc9401ec3df04166b2ced52ffe2553/CONTRIBUTING.md">
 ![Static Badge](https://img.shields.io/badge/Prueba_1-Eject-2?color=7EF12E)
-<a>
 
 <---!Badges por idiomas --->
 
