@@ -1,4 +1,6 @@
 ## First Steps Guide to Using Git and GitHub
+[![Static Badge](https://img.shields.io/badge/Idioma-ES-A42EF1)](https://github.com/jtoledom1/Git_Howto/blob/280b839f0fb495497bea8d71f7fcb6e9413e3b83/README.md)
+
 ### Index
 
 1. [Initial Configuration](#initial-configuration)
