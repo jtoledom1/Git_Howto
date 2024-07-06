@@ -1,11 +1,6 @@
 # Git How to?
 
-<---!Badges por idiomas --->
-
 [![Static Badge](https://img.shields.io/badge/Language-EN-7EF12E)](https://github.com/jtoledom1/Git_Howto/blob/21380b9c098f79a271741afb035fbf0b7ef9be47/Readme.md)
-
-
-<---!Badges por idiomas --->
 
 Bienvenido a este curso para aprender a usar Github, esperamos que te sea de utilidad para empezar a trabajar de manera colaborativa. 
 
