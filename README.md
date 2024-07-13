@@ -3,7 +3,7 @@
 [![Static Badge](https://img.shields.io/badge/Language-EN-7EF12E)](https://github.com/jtoledom1/Git_Howto/blob/21380b9c098f79a271741afb035fbf0b7ef9be47/Readme.md)
 
 Bienvenido a este curso para aprender a usar Github, esperamos que te sea de utilidad para empezar a trabajar de manera colaborativa. 
-oooooooooo
+
 
 Te brindaremos los recursos necesarios para que puedas empezar sin contratiempos. Diseñamos este curso para que puedas trabajar sin importar tu sistema operativo. Te recomendamos adecuar tu entorno de trabajo acorde a tus necesidades, ya que estaremos trabajando con la terminal del sistema, es recomendable que esta sea un entorno amigable para ti. Por el momento puedes acceder a tutoriales que ha creado la comunidad, y que a su vez han sido probados por nosotros con resultados prometedores. 
   
@@ -17,7 +17,7 @@ Te brindaremos los recursos necesarios para que puedas empezar sin contratiempos
 - [Git push](#git-push)
 - [Enlaces](#enlaces)
 
-
+uuu
 ## Generalidades
 En virtud de que esta guía sea de rápido acceso en tu día a día excluímos partes que en principio deberías usar sólo una vez. Será necesario que para empezar este curso realices los módulos siguientes, ya que sin ellos no podrás avanzar:
 
