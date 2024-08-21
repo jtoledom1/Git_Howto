@@ -1,4 +1,5 @@
-# Git How to?
+
+[![Git-Welcome](https://github.com/jtoledom1/Git_Howto/blob/8d4681cd93d95531537ac07e101c7cd0fbc20fae/static/Git%20Github.png)(https://github.com/jtoledom1)]
 
 [![Static Badge](https://img.shields.io/badge/Language-EN-7EF12E)](https://github.com/jtoledom1/Git_Howto/blob/21380b9c098f79a271741afb035fbf0b7ef9be47/Readme.md)
 
