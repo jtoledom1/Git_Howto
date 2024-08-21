@@ -1,7 +1,13 @@
+<p align="center">
+  <a href="https://github.com/jtoledom1">
+  <img src="https://github.com/jtoledom1/Git_Howto/blob/8d4681cd93d95531537ac07e101c7cd0fbc20fae/static/Git%20Github.png" alt="Git_Welcome" width="600"/>
+</a>
+</p>
 
-[![Git-Welcome](https://github.com/jtoledom1/Git_Howto/blob/8d4681cd93d95531537ac07e101c7cd0fbc20fae/static/Git%20Github.png)(https://github.com/jtoledom1)]
-
+Please select for info in english  
 [![Static Badge](https://img.shields.io/badge/Language-EN-7EF12E)](https://github.com/jtoledom1/Git_Howto/blob/21380b9c098f79a271741afb035fbf0b7ef9be47/Readme.md)
+
+<hr></hr>
 
 Bienvenido a este curso para aprender a usar Github, esperamos que te sea de utilidad para empezar a trabajar de manera colaborativa. 
 
