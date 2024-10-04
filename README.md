@@ -4,7 +4,7 @@
 </a>
 </p>
 
-Please select for info in english  
+Please select for english  
 [![Static Badge](https://img.shields.io/badge/Language-EN-7EF12E)](https://github.com/jtoledom1/Git_Howto/blob/21380b9c098f79a271741afb035fbf0b7ef9be47/Readme.md)
 
 <hr></hr>
