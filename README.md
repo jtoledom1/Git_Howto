@@ -131,7 +131,7 @@ git clone git@github.com:jtoledom1/Git_Howto.git
 ```
 
 **Importante:** debes de seleccionar la opción ssh, si aún no configuras tu git para trabajar con ssh, dirígete a: [Configuración-ssh](Notas%20Separadas/Git_ssh_init.md)
-
+### Agregar un repositorio github al directorio / carpeta actual
 Otra manera de trabajar es suponiendo que quieras fusionar un repo de git y uno en github en el cual ambos tienen información:
 
 ```bash
