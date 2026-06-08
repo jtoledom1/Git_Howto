@@ -122,7 +122,10 @@ Para agregar tu clave privada SSH al agente ssh:
 Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 Start-Service ssh-agent
 ```
-
+### Obtener tu clave privada para poder agregarla desde el IDE de Github
+```powershell
+Get-Content $env:USERPROFILE\.ssh\id_ed25519.pub
+```
 2. En una ventana de terminal **sin privilegios de administrador**, agrega la clave privada SSH al agente ssh. Si has creado tu clave con un nombre diferente o estás agregando una clave existente que tiene un nombre diferente, reemplaza "id_ed25519" en el comando con el nombre de tu archivo de clave privada, así como la ruta, es decir el "/YOU" por tu usuario de windows.
 
 ```bash
