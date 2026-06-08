@@ -27,7 +27,7 @@ Documentación para generar y agregar una clave SSH, adaptada para el uso en la 
 ssh-keygen -t ed25519 -C "tu_correo_electronico@example.com"
 ```
 
-Nota: Si estás utilizando un sistema heredado que no admite el algoritmo Ed25519, usa el siguiente comando:
+Nota: Si estás utilizando un sistema heredado (sistemas antiguos) que no admite el algoritmo Ed25519, usa el siguiente comando:
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "tu_correo_electronico@example.com"
